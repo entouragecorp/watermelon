@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/blood-orange/static/css/main.9dcd3f90.chunk.css",
+    "main.js": "/blood-orange/static/js/main.db2fcf3c.chunk.js",
+    "main.js.map": "/blood-orange/static/js/main.db2fcf3c.chunk.js.map",
+    "runtime-main.js": "/blood-orange/static/js/runtime-main.1c4be04c.js",
+    "runtime-main.js.map": "/blood-orange/static/js/runtime-main.1c4be04c.js.map",
+    "static/js/2.f490e240.chunk.js": "/blood-orange/static/js/2.f490e240.chunk.js",
+    "static/js/2.f490e240.chunk.js.map": "/blood-orange/static/js/2.f490e240.chunk.js.map",
+    "static/js/3.5cade456.chunk.js": "/blood-orange/static/js/3.5cade456.chunk.js",
+    "static/js/3.5cade456.chunk.js.map": "/blood-orange/static/js/3.5cade456.chunk.js.map",
+    "index.html": "/blood-orange/index.html",
+    "static/css/main.9dcd3f90.chunk.css.map": "/blood-orange/static/css/main.9dcd3f90.chunk.css.map",
+    "static/js/2.f490e240.chunk.js.LICENSE.txt": "/blood-orange/static/js/2.f490e240.chunk.js.LICENSE.txt",
+    "static/media/Saturday.1909c810.mp4": "/blood-orange/static/media/Saturday.1909c810.mp4",
+    "static/media/Pages.scss": "/blood-orange/static/media/prizingBg.87f69a67.png",
+    "static/media/green-quiz-bg.png": "/blood-orange/static/media/green-quiz-bg.a31143c5.png",
+    "static/media/guitar.53634a63.svg": "/blood-orange/static/media/guitar.53634a63.svg",
+    "static/media/orange-vape-bg.png": "/blood-orange/static/media/orange-vape-bg.86dbc733.png",
+    "static/media/orig-roomba.e30ced5a.png": "/blood-orange/static/media/orig-roomba.e30ced5a.png",
+    "static/media/roomba-bg.d094d11a.png": "/blood-orange/static/media/roomba-bg.d094d11a.png",
+    "static/media/sour.cbda50ee.svg": "/blood-orange/static/media/sour.cbda50ee.svg",
+    "static/media/vape-pen.29429644.svg": "/blood-orange/static/media/vape-pen.29429644.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1c4be04c.js",
+    "static/js/2.f490e240.chunk.js",
+    "static/css/main.9dcd3f90.chunk.css",
+    "static/js/main.db2fcf3c.chunk.js"
+  ]
+}
