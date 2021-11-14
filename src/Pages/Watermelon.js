@@ -19,23 +19,22 @@ const Watermelon = (props) => {
 
           <div className='shared_width'>
             <div className='info_container'>
-              <h1 className='blood_orange_h1'>BLOOD</h1>
-              <h1 className='blood_orange_h1 Title2'>ORANGE</h1>
+              <h1 className='blood_orange_h1'>WATERMELON</h1>
               <h5 className='blood_orange_h1 ROR'>1G 510 CARTRIDGE</h5>
             </div>
 
             <div className='info_container'>
-              <p className='margin_zero' style={{fontSize: '13px'}}>Blood Orange by Saturday is the sweet and juicy with a tangy zip and touch of floral pine. Enjoy a crisp twist on citrus.</p>
+              <p className='margin_zero' style={{fontSize: '13px'}}>Watermelon is our newest Saturday distillate featuring a tropical fruit flavour; packed with a blend of terpenes including alpha-pinene, limonene and linalool. With it’s very strong THC potency potential, Saturday 510 carts are here for the weekend.</p>
             </div>
 
             <div className='info_container'>
-              <p className='margin_zero'>SATIVA</p>
-              <p className='margin_zero thin'>THC 19-25%</p>
-              <p className='margin_zero thin'>CBD 0-1%</p>
+              <p className='margin_zero'>HYBRID</p>
+              <p className='margin_zero thin'>THC 77-83%</p>
+              <p className='margin_zero thin'>CBD 0-2%</p>
             </div>
             <div className='info_container'>
               <p className='margin_zero'>AROMA & FLAVOURS</p>
-              <p className='margin_zero thin'>Sweet Citrus Fruity</p>
+              <p className='margin_zero thin'>Fruity, Floral, Sweet</p>
             </div>
 
             <div className='info_container'>

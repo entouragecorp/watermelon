@@ -1,6 +1,6 @@
 $lightgreen: #535938;
 $darkgreen: #40473F;
-$orange: #D9442A;
+$orange: #E14925;
 
 .home_bg{
     width: 100%;
@@ -83,7 +83,7 @@ $orange: #D9442A;
           margin-bottom: 20px;
           width: 40vw;
           font-size: 23px;
-          background-color: #D9442A;
+          background-color: $orange;
           color: white;
           border: none;
           font-family: 'Fjalla One', sans-serif;
@@ -96,7 +96,7 @@ $orange: #D9442A;
           width: 40vw;
           height: 40px;
           font-size: 23px;
-          background-color: #D9442A;
+          background-color: $orange;
           color: white;
           border: none;
           font-family: 'Fjalla One', sans-serif;
@@ -288,6 +288,7 @@ label{
   align-items: center;
   width: 100%;
   #vapePen{
+    margin-top: 2.5rem;
     max-width: 150px;
   }
 }
@@ -448,14 +449,14 @@ label{
         }
         border-radius: 10px;
         width: 70px;
-        background-color: #D9442A;
+        background-color: $orange;
     }
     // box-shadow: inset 0px -12px 6px -5px #aa331e;
     overflow-x: scroll;
     z-index: 999;
     height: 40vh;
     width: 0px;
-    background-color: #D9442A;
+    background-color: $orange;
     position: absolute;
     bottom: 26vh;
     right: 0;
@@ -590,14 +591,14 @@ label{
         }
         border-radius: 10px;
         width: 70px;
-        background-color: #D9442A;
+        background-color: $orange;
     }
     // box-shadow: inset 0px -12px 6px -5px #aa331e;
     overflow-x: scroll;
     z-index: 999;
     height: 40vh;
     width: 0px;
-    background-color: #D9442A;
+    background-color: $orange;
     position: absolute;
     bottom: 35vh;
     right: 0;
