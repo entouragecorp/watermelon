@@ -6,12 +6,12 @@ import './Pages.scss'
 
 /**
 * @author
-* @function BloodOrange
+* @function Watermelon
 **/
 
-const BloodOrange = (props) => {
+const Watermelon = (props) => {
   return(
-    <div className='Prizing bloodOrangeBg'>
+    <div className='Prizing watermelonBg'>
 
       <div className='columns_holder'>
 
@@ -59,4 +59,4 @@ const BloodOrange = (props) => {
 
  }
 
-export default BloodOrange
+export default Watermelon

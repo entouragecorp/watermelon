@@ -3,7 +3,7 @@ import LandingPage from './Pages/Landing_page';
 import Video from './Pages/Video';
 import './App.css';
 import Prizing from './Pages/Prizing';
-import BloodOrange from './Pages/BloodOrange';
+import Watermelon from './Pages/Watermelon';
 import Quiz from './Pages/Quiz';
 import Datacapture from './Pages/Datacapture';
 import Instructions from './Pages/Instructions';
@@ -20,13 +20,13 @@ function App() {
             <Route path='/roomba-prize' exact strict component={RoombaPrize}/>
             <Route path='/educational-video' exact strict component={Video}/>
             {/* <Route path='/prizing' exact strict component={Prizing}/> */}
-            <Route path='/blood-orange' exact strict component={BloodOrange}/>
+            <Route path='/blood-orange' exact strict component={Watermelon}/>
             <Route path='/Quiz' exact strict component={Quiz}/>
             <Route path='/data-capture' exact strict component={Datacapture}/>
             <Route path='/instructions' exact strict component={Instructions} />
             <Route path='/ThanksForEntry' exact strict component={ThankYou} />
         </Switch>
-    </Router>                          
+    </Router>
   );
 }
 
