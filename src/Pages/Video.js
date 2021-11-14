@@ -11,15 +11,8 @@ const Video = (props) => {
   const history = useHistory()
   useEffect(()=>{
 
-    // const randNum = Math.floor(Math.random() * 2)
-    // console.log(randNum)
     setTimeout(()=>{
-      history.push('/blood-orange')
-    //   if(randNum === 1){
-    //     history.push('/prizing')
-    //   }else if(randNum === 0){
-    //     history.push('/blood-orange')
-    //   }
+      history.push('/watermelon')
 
     },9000)
   }, [])

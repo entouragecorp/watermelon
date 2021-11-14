@@ -20,7 +20,7 @@ function App() {
             <Route path='/roomba-prize' exact strict component={RoombaPrize}/>
             <Route path='/educational-video' exact strict component={Video}/>
             {/* <Route path='/prizing' exact strict component={Prizing}/> */}
-            <Route path='/blood-orange' exact strict component={Watermelon}/>
+            <Route path='/watermelon' exact strict component={Watermelon}/>
             <Route path='/Quiz' exact strict component={Quiz}/>
             <Route path='/data-capture' exact strict component={Datacapture}/>
             <Route path='/instructions' exact strict component={Instructions} />

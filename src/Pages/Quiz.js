@@ -35,7 +35,6 @@ const Quiz = (props) => {
     const showC = useRef()
     const showD = useRef()
     const questionaire_limit = 5
-    // const list_of_questions = ['1. Saturday 1G Blood Orange', '2. Saturday Blood Orange is priced perfectly for which on-the-go shopper?', "3. When speaking about the 1G Blood Orange product, I'd start with:", "4. Orange flavour can be difficult to nail, but Saturday's Blood Orange has done so beautifully because:", '5. I’d Recommend Saturday Blood Orange to a shopper in a situation where:']
     const list_of_questions = [
       {
         question: '1. What size cartridge is the Saturday Watermelon 510:',

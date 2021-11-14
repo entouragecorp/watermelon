@@ -14,7 +14,6 @@ const Datacapture = (props) => {
 
   const on_submit = (e) => {
     e.preventDefault()
-    // history.push('/blood-orange')
     const user_metadata = JSON.parse(localStorage.getItem('users_metadata'))
 
     // console.log(`Fullname: ${e.target.fullname.value} | Email: ${e.target.email.value} | Company: ${e.target.store.value}`)
