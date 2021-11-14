@@ -2,7 +2,10 @@ import React, { useEffect, useRef, useState } from 'react'
 import { gsap } from 'gsap'
 import { useHistory } from 'react-router'
 import QuizOrangeBg from './../Assets/orange-vape-bg.png'
+import QuizOrangeBg2 from './../Assets/orange-vape-bg-2.png'
 import QuizGreenBg from './../Assets/green-quiz-bg.png'
+import QuizGreenBg2 from './../Assets/green-quiz-bg-2.png'
+import QuizVapeTubeBg from './../Assets/orange-tube-bg.png'
 
 /**
 * @author
@@ -51,7 +54,7 @@ const Quiz = (props) => {
           b: 'False'
         },
         answer: 'a',
-        bg: `url(${QuizGreenBg})`
+        bg: `url(${QuizGreenBg2})`
       },
       {
         question: "3. What are two dominant flavour aromas that you can expect from Saturday Watermelon Vape?",
@@ -61,7 +64,7 @@ const Quiz = (props) => {
           c: 'Pepper + Berry'
         },
         answer: 'b',
-        bg: `url(${QuizOrangeBg})`
+        bg: `url(${QuizOrangeBg2})`
       },
       {
         question: "4. Saturday Watermelon Vape is:",
@@ -82,7 +85,7 @@ const Quiz = (props) => {
           d: 'A shopper who is new to cannabis and is looking for a balanced THC:CBD offering'
         },
         answer: 'c',
-        bg: `url(${QuizOrangeBg})`
+        bg: `url(${QuizVapeTubeBg})`
       }
     ]
     const history = useHistory()
@@ -116,7 +119,7 @@ const Quiz = (props) => {
           completed.push(random)
           question.current.textContent = list_of_questions[random].question
           bg.current.style.background = list_of_questions[random].bg
-          bg.current.style.backgroundSize = 'cover'
+          bg.current.style.backgroundSize = '100% 100%'
 
           if (list_of_questions[random].options['a']) {
             a.current.textContent = list_of_questions[random].options['a']
