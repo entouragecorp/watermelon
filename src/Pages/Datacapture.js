@@ -16,14 +16,13 @@ const Datacapture = (props) => {
     e.preventDefault()
     const user_metadata = JSON.parse(localStorage.getItem('users_metadata'))
 
-    // console.log(`Fullname: ${e.target.fullname.value} | Email: ${e.target.email.value} | Company: ${e.target.store.value}`)
-      var users_data = {
+    var users_data = {
       'fullname': `${e.target.fullname.value}`,
       'email': `${e.target.email.value}`,
       'company': `${e.target.store.value}`,
       'points': points,
       ...user_metadata
-      }
+    }
     fetch("https://bottlecapdev.pythonanywhere.com/saturday", {
       method: "POST",
       mode: "cors",

@@ -23,7 +23,6 @@ const Quiz = (props) => {
     var completed = []
     var points = 0
     var counter = 0
-    var bg_counter = 0
     const question = useRef()
     const a = useRef()
     const b = useRef()
@@ -34,6 +33,7 @@ const Quiz = (props) => {
     const showB = useRef()
     const showC = useRef()
     const showD = useRef()
+    const keyMap = ['a', 'b', 'c', 'd']
     const questionaire_limit = 5
     const list_of_questions = [
       {
@@ -106,7 +106,6 @@ const Quiz = (props) => {
           history.push('/data-capture')
         }
       } else {
-        // Math.round(Math.random() * 4)
         let random = counter++
         const check_completed = completed.find(element => element == random)
 
@@ -120,33 +119,14 @@ const Quiz = (props) => {
           bg.current.style.background = list_of_questions[random].bg
           bg.current.style.backgroundSize = '100% 100%'
 
-          if (list_of_questions[random].options['a']) {
-            a.current.textContent = list_of_questions[random].options['a']
-            showA.current.className = 'green_bg a'
-          } else {
-            showA.current.className = 'displayNone'
-          }
-
-          if (list_of_questions[random].options['b']) {
-            b.current.textContent = list_of_questions[random].options['b']
-            showB.current.className = 'green_bg b'
-          } else {
-            showB.current.className = 'displayNone'
-          }
-
-          if (list_of_questions[random].options['c']) {
-            c.current.textContent = list_of_questions[random].options['c']
-            showC.current.className = 'green_bg c'
-          } else {
-            showC.current.className = 'displayNone'
-          }
-
-          if (list_of_questions[random].options['d']) {
-            d.current.textContent = list_of_questions[random].options['d']
-            showD.current.className = 'green_bg d'
-          } else {
-            showD.current.className = 'displayNone'
-          }
+          keyMap.forEach(key => {
+            if (list_of_questions[random].options[key]) {
+              eval(key).current.textContent = list_of_questions[random].options[key]
+              eval(`show${key.toUpperCase()}`).current.className = `green_bg ${key}`
+            } else {
+              eval(`show${key.toUpperCase()}`).current.className = 'displayNone'
+            }
+          })
         }
       }
     }
@@ -166,7 +146,6 @@ const Quiz = (props) => {
       setTimeout(()=>{
           randList()
       }, 1000)
-
     }
 
     return (
@@ -176,10 +155,10 @@ const Quiz = (props) => {
                     <h3 ref={question}></h3>
                 </div>
                 <div id='answer_list'>
-                    <div ref={showA} className='green_bg a' onClick={() => selectved_answer('a')}><p className='ans' ref={a}></p></div>
-                    <div ref={showB} className='green_bg b' onClick={() => selectved_answer('b')}><p className='ans' ref={b}></p></div>
-                    <div ref={showC} className='green_bg c' onClick={() => selectved_answer('c')}><p className='ans' ref={c}></p></div>
-                    <div ref={showD} className='green_bg d' onClick={() => selectved_answer('d')}><p className='ans' ref={d}></p></div>
+                    <div ref={showA} className='displayNone' onClick={() => selectved_answer('a')}><p className='ans' ref={a}></p></div>
+                    <div ref={showB} className='displayNone' onClick={() => selectved_answer('b')}><p className='ans' ref={b}></p></div>
+                    <div ref={showC} className='displayNone' onClick={() => selectved_answer('c')}><p className='ans' ref={c}></p></div>
+                    <div ref={showD} className='displayNone' onClick={() => selectved_answer('d')}><p className='ans' ref={d}></p></div>
                 </div>
             </div>
         </div>

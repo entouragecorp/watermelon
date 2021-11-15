@@ -19,8 +19,8 @@ const Watermelon = (props) => {
 
           <div className='shared_width'>
             <div className='info_container'>
-              <h1 className='blood_orange_h1'>WATERMELON</h1>
-              <h5 className='blood_orange_h1 ROR'>1G 510 CARTRIDGE</h5>
+              <h1 className='watermelon_h1'>WATERMELON</h1>
+              <h5 className='watermelon_h5'>1G 510 CARTRIDGE</h5>
             </div>
 
             <div className='info_container'>
@@ -50,7 +50,7 @@ const Watermelon = (props) => {
         </div>
 
       </div>
-      <div className='next_btn_blood_orange'>
+      <div className='next_btn_watermelon'>
           <Next text="LET'S BEGIN" link='/quiz' color='#535938'/>
       </div>
     </div>

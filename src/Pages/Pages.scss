@@ -116,7 +116,7 @@ $orange: #E14925;
     height: 100vh;
     overflow-y: scroll;
     background: url('./../Assets/data-capture-bg.png') no-repeat center center;
-    background-size: cover;
+    background-size: 100% 100%;
 
     .titleContainer{
         width: auto;
@@ -125,17 +125,16 @@ $orange: #E14925;
         top: 0;
         margin: 23vh 0px 0px 6vw;
     }
-    .blood_orange_h1{
+    .watermelon_h1{
         color: white;
         margin-bottom: 5px;
         font-weight: 500;
-
+        font-size: 40px;
     }
-    .Title2{
-        margin-top: -2vh;
-    }
-    .ROR{
+    .watermelon_h5{
         margin-top: -1vh;
+        color: white;
+        font-weight: 500;
     }
     #next_btn_green{
         width: 100%;
@@ -152,10 +151,8 @@ $orange: #E14925;
     }
     .shared_width{
         color: white;
-        width: calc(100% / 2);
         display: flex;
         flex-direction: column;
-        align-items: flex-end;
         padding-left: 6%;
         z-index: 99;
 
@@ -169,10 +166,8 @@ $orange: #E14925;
         }
     }
     .left-content{
-        padding-left: 6vw;
-        // padding-top: 10vh;
-        // margin-top: 4vh;
-        width: 41vw;
+        padding-left: 8vw;
+        width: 70vw;
     }
     .margin_zero{
         margin: 0px;
@@ -408,7 +403,7 @@ label{
         height: 100vh;
         overflow-y: scroll;
         background: url('./../Assets/prizingBg.png') no-repeat center center;
-        background-size: cover;
+        background-size: 100% 100%;
         .titleContainer{
             width: auto;
             position: absolute;
@@ -559,7 +554,7 @@ label{
     width: 60vw !important;
 }
 
-.next_btn_blood_orange{
+.next_btn_watermelon{
     width: 100vw;
     height: auto;
     display: flex;
@@ -607,7 +602,7 @@ label{
     // transform: translateX(70px);
     // transform: translateX(70px);
 }
-    .next_btn_blood_orange{
+    .next_btn_watermelon{
         width: 100vw;
         height: auto;
         display: flex;
