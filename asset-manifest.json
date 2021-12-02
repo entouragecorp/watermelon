@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/watermelon/static/css/main.f898e34d.chunk.css",
-    "main.js": "/watermelon/static/js/main.4320a8ab.chunk.js",
-    "main.js.map": "/watermelon/static/js/main.4320a8ab.chunk.js.map",
+    "main.js": "/watermelon/static/js/main.8f299ed7.chunk.js",
+    "main.js.map": "/watermelon/static/js/main.8f299ed7.chunk.js.map",
     "runtime-main.js": "/watermelon/static/js/runtime-main.9739fd23.js",
     "runtime-main.js.map": "/watermelon/static/js/runtime-main.9739fd23.js.map",
     "static/js/2.5305b3b4.chunk.js": "/watermelon/static/js/2.5305b3b4.chunk.js",
@@ -29,6 +29,6 @@
     "static/js/runtime-main.9739fd23.js",
     "static/js/2.5305b3b4.chunk.js",
     "static/css/main.f898e34d.chunk.css",
-    "static/js/main.4320a8ab.chunk.js"
+    "static/js/main.8f299ed7.chunk.js"
   ]
 }
